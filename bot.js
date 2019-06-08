@@ -5,7 +5,7 @@ const client = new Discord.Client();
 client.on('ready', () => {
   console.log(`Welcome Bro ${client.user.tag}!`);
 });
-const prefix = '_'
+const prefix = 'sf-'
 
 client.on('message', message => {
   if (!message.content.startsWith(prefix)) return;
